@@ -1,0 +1,27 @@
+{
+  "Bubble data": {
+    "Nb": 40,
+    "Ns": 50,
+    "bubble_dynamics": "Rayleigh_Plesset_Bubble",
+    "zeta": 0.0,
+    "gamma": 0.0,
+    "epsilon": 1.0,
+    "k": 1.4,
+    "surface_elasticity": "false",
+    "sigma_s": 0.0,
+    "A": -30.0,
+    "Omega": 14.046676958626175,
+    "Rmax": 35.6840,
+    "alpha": 1.570,
+    "xi": 2.802690583,
+    "e": 0.0,
+    "boundary": "spherical"
+  },
+  "Solver parameters": {
+    "temporal_solver": "RK2",
+    "dumper_filename": "A30_O14_e0.txt",
+    "delta_phi": "1.0e-2",
+    "filtering_freq": 1,
+    "n_threads": 16
+  }
+}
